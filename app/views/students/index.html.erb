@@ -1,5 +1,5 @@
 <div>
   <% @students.each do |student| %>
-    <div><%= link_to student.@student.to_s, post_path(post.id) %></div>
+    <div><%= link_to student.first_name, post_path(post.id) %></div>
   <% end %>
 </div>
